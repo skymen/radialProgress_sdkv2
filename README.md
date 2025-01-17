@@ -1,9 +1,15 @@
 <img src="./src/icon.svg" width="100" /><br>
 # Radial Progress
+### Version 2.0.0.0
+
+[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/radialProgress_sdkv2/releases/download/skymen_RadialProgress-2.0.0.0.c3addon/skymen_RadialProgress-2.0.0.0.c3addon)
+<br>
+<sub> [See all releases](https://github.com/skymen/radialProgress_sdkv2/releases) </sub> <br>
 
 ---
 Makes a sprite or tiled background behave as a radial progress bar <br>
 <b><u>Author:</u></b> skymen <br>
+<b><u>Addon Url:</u></b> undefined <br>
 <sub>Made using [CAW](https://marketplace.visualstudio.com/items?itemName=skymen.caw) </sub><br>
 
 ## Table of Contents
