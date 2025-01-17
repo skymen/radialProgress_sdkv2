@@ -9,7 +9,7 @@
 ---
 Makes a sprite or tiled background behave as a radial progress bar <br>
 <b><u>Author:</u></b> skymen <br>
-<b><u>Addon Url:</u></b> undefined <br>
+<b><u>Addon Url:</u></b> https://www.construct.net/en/make-games/addons/559/radial-progress <br>
 <sub>Made using [CAW](https://marketplace.visualstudio.com/items?itemName=skymen.caw) </sub><br>
 
 ## Table of Contents
