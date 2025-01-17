@@ -1,4 +1,4 @@
-<img src="./src/icon.svg?rand=7258" width="100" /><br>
+<img src="./src/icon.svg?rand=636" width="100" /><br>
 # Radial Progress
 <i>Makes a sprite or tiled background behave as a radial progress bar</i> <br>
 ### Version 2.0.0.0
@@ -10,6 +10,7 @@
 ---
 <b><u>Author:</u></b> skymen <br>
 <b>[Construct Addon Page](https://www.construct.net/en/make-games/addons/559/radial-progress)</b>  <br>
+<b>[Documentation](https://www.construct.net/en/make-games/addons/559/radial-progress/documentation)</b>  <br>
 <sub>Made using [CAW](https://marketplace.visualstudio.com/items?itemName=skymen.caw) </sub><br>
 
 ## Table of Contents
