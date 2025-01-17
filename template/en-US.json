@@ -1,0 +1,203 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for skymen_radialprogress.",
+  "text": {
+    "behaviors": {
+      "skymen_radialprogress": {
+        "name": "Radial Progress",
+        "description": "Makes a sprite or tiled background behave as a radial progress bar",
+        "help-url": "https://www.construct.net",
+        "aceCategories": {
+          "general": "general"
+        },
+        "properties": {
+          "resolution": {
+            "name": "Resolution",
+            "desc": "The number of segments to use to draw the radial progress"
+          },
+          "circular": {
+            "name": "Circular",
+            "desc": "If set, the progress will be drawn as a circle"
+          },
+          "innerRadiusX": {
+            "name": "Inner Radius X",
+            "desc": "The X radius of the inner circle"
+          },
+          "innerRadiusY": {
+            "name": "Inner Radius Y",
+            "desc": "The Y radius of the inner circle"
+          },
+          "outerRadiusX": {
+            "name": "Outer Radius X",
+            "desc": "The X radius of the outer circle"
+          },
+          "outerRadiusY": {
+            "name": "Outer Radius Y",
+            "desc": "The Y radius of the outer circle"
+          },
+          "value": {
+            "name": "Value",
+            "desc": "The current progress value"
+          },
+          "maximum": {
+            "name": "Maximum",
+            "desc": "The maximum progress value"
+          },
+          "inverted": {
+            "name": "Inverted",
+            "desc": "If set, the progress will be inverted"
+          }
+        },
+        "actions": {
+          "set-circular": {
+            "list-name": "Set circular",
+            "display-text": "{my}: Set circular to {0}",
+            "description": "Set the circular",
+            "params": {
+              "circular": {
+                "name": "Circular",
+                "desc": "circular"
+              }
+            }
+          },
+          "set-innerradius-x": {
+            "list-name": "Set inner radius x",
+            "display-text": "{my}: Set inner radius x to {0}",
+            "description": "Set the inner radius x",
+            "params": {
+              "radius": {
+                "name": "InnerRadiusX",
+                "desc": "inner radius x"
+              }
+            }
+          },
+          "set-innerradius-y": {
+            "list-name": "Set inner radius y",
+            "display-text": "{my}: Set inner radius y to {0}",
+            "description": "Set the inner radius y",
+            "params": {
+              "radius": {
+                "name": "InnerRadiusY",
+                "desc": "inner radius y"
+              }
+            }
+          },
+          "set-inverted": {
+            "list-name": "Set inverted",
+            "display-text": "{my}: Set inverted to {0}",
+            "description": "Set the inverted",
+            "params": {
+              "inverted": {
+                "name": "Inverted",
+                "desc": "inverted"
+              }
+            }
+          },
+          "set-maximum": {
+            "list-name": "Set maximum",
+            "display-text": "{my}: Set maximum to {0}",
+            "description": "Set the maximum",
+            "params": {
+              "value": {
+                "name": "Maximum",
+                "desc": "maximum"
+              }
+            }
+          },
+          "set-outerradius-x": {
+            "list-name": "Set outer radius x",
+            "display-text": "{my}: Set outer radius x to {0}",
+            "description": "Set the outer radius x",
+            "params": {
+              "radius": {
+                "name": "OuterRadiusX",
+                "desc": "outer radius x"
+              }
+            }
+          },
+          "set-outerradius-y": {
+            "list-name": "Set outer radius y",
+            "display-text": "{my}: Set outer radius y to {0}",
+            "description": "Set the outer radius y",
+            "params": {
+              "radius": {
+                "name": "OuterRadiusY",
+                "desc": "outer radius y"
+              }
+            }
+          },
+          "set-resolution": {
+            "list-name": "Set resolution",
+            "display-text": "{my}: Set resolution to {0}",
+            "description": "Set the resolution",
+            "params": {
+              "resolution": {
+                "name": "Resolution",
+                "desc": "resolution"
+              }
+            }
+          },
+          "set-value": {
+            "list-name": "Set value",
+            "display-text": "{my}: Set value to {0}",
+            "description": "Set the value",
+            "params": {
+              "value": {
+                "name": "Value",
+                "desc": "value"
+              }
+            }
+          }
+        },
+        "conditions": {},
+        "expressions": {
+          "inner-radius-x": {
+            "translated-name": "InnerRadiusX",
+            "description": "Get the inner radius x",
+            "params": {}
+          },
+          "inner-radius-y": {
+            "translated-name": "InnerRadiusY",
+            "description": "Get the inner radius y",
+            "params": {}
+          },
+          "get-circular": {
+            "translated-name": "IsCircular",
+            "description": "Get the circular",
+            "params": {}
+          },
+          "inverted": {
+            "translated-name": "IsInverted",
+            "description": "Get the inverted",
+            "params": {}
+          },
+          "maximum": {
+            "translated-name": "Maximum",
+            "description": "Get the maximum",
+            "params": {}
+          },
+          "outer-radius-x": {
+            "translated-name": "OuterRadiusX",
+            "description": "Get the outer radius x",
+            "params": {}
+          },
+          "outer-radius-y": {
+            "translated-name": "OuterRadiusY",
+            "description": "Get the outer radius y",
+            "params": {}
+          },
+          "get-resolution": {
+            "translated-name": "Resolution",
+            "description": "Get the resolution",
+            "params": {}
+          },
+          "value": {
+            "translated-name": "Value",
+            "description": "Get the value",
+            "params": {}
+          }
+        }
+      }
+    }
+  }
+}
