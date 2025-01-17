@@ -13,7 +13,7 @@ export const version = _version;
 export const author = "skymen";
 export const website = "https://github.com/skymen/radialProgress_sdkv2";
 export const documentation =
-  "https://github.com/skymen/radialProgress_sdkv2#properties";
+  "https://www.construct.net/en/make-games/addons/559/radial-progress/documentation";
 export const description =
   "Makes a sprite or tiled background behave as a radial progress bar";
 export const category = ADDON_CATEGORY.GENERAL;

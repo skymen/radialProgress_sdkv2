@@ -108,7 +108,7 @@ export default async function generateDocumentation() {
   }
   if (publishConfig && publishConfig.addonUrl !== "") {
     readme.push(
-      `<b>[Construct Addon Page](${publishConfig.addonUrl}))</b>  <br>`
+      `<b>[Construct Addon Page](${publishConfig.addonUrl})</b>  <br>`
     );
   }
   //add link to c3ide2-framework

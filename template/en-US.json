@@ -6,7 +6,7 @@
       "skymen_radialprogress": {
         "name": "Radial Progress",
         "description": "Makes a sprite or tiled background behave as a radial progress bar",
-        "help-url": "https://github.com/skymen/radialProgress_sdkv2#properties",
+        "help-url": "https://www.construct.net/en/make-games/addons/559/radial-progress/documentation",
         "aceCategories": {
           "general": "general"
         },
