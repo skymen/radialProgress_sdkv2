@@ -95,14 +95,15 @@ export default async function generateDocumentation() {
   if (
     config.website &&
     config.website !== "" &&
-    config.website !== "https://www.construct.net"
+    !config.website.includes("construct.net") &&
+    !config.website.includes("github.com")
   ) {
     readme.push(`<b>[Addon Website](${config.website})</b>  <br>`);
   }
   if (
     config.documentation &&
     config.documentation !== "" &&
-    config.documentation !== "https://www.construct.net"
+    !config.documentation.includes("construct.net")
   ) {
     readme.push(`<b>[Documentation](${config.documentation})</b>  <br>`);
   }
