@@ -72,6 +72,7 @@ export default async function generateDocumentation() {
   const readme = [];
   readme.push(getCoverImage());
   readme.push(`# ${config.name}`);
+  readme.push(`${config.description} <br>`);
   const githubUrl = await getGithubURL();
   if (githubUrl && githubUrl !== "") {
     let addonFileName = `${config.id}-${config.version}.c3addon`;
@@ -86,7 +87,6 @@ export default async function generateDocumentation() {
 
   readme.push("");
   readme.push("---");
-  readme.push(`${config.description} <br>`);
   readme.push(`<b><u>Author:</u></b> ${config.author} <br>`);
   if (
     config.website &&
