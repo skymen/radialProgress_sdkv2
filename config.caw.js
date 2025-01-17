@@ -11,8 +11,9 @@ export const id = "skymen_RadialProgress";
 export const name = "Radial Progress";
 export const version = _version;
 export const author = "skymen";
-export const website = "https://www.construct.net";
-export const documentation = "https://www.construct.net";
+export const website = "https://github.com/skymen/radialProgress_sdkv2";
+export const documentation =
+  "https://github.com/skymen/radialProgress_sdkv2#properties";
 export const description =
   "Makes a sprite or tiled background behave as a radial progress bar";
 export const category = ADDON_CATEGORY.GENERAL;
