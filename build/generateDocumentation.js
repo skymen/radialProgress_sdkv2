@@ -151,26 +151,25 @@ export default async function generateDocumentation() {
       "webp",
     ]);
 
+    readme.push(`| Images | Description | Download |`);
+    readme.push(`| --- | --- | --- |`);
     exampleFiles.forEach((file) => {
       const fileName = file.split(".")[0];
 
       //add images
+      let images = images.filter((image) =>
+        image.split(".")[0].includes(fileName)
+      );
+      let imgString = "";
       images.forEach((image) => {
-        const imageName = image.split(".")[0];
-        readme.push(`</br>`);
-        //check if image contains the name of the example file
-        if (imageName.includes(fileName)) {
-          // display the a small version of the image on a new line
-          readme.push(`<img src="./examples/${image}" width="200" /> <br>`);
-        }
+        imgString += `<img src="./examples/${image}" width="100" />`;
       });
       readme.push(
-        `- [${fileName}](${githubUrl}/raw/refs/heads/main/examples/${file.replace(
+        `| ${imgString} | ${fileName} | [<img src="https://placehold.co/100x25/4493f8/FFF?text=Download&font=montserrat" width="100"/>](${githubUrl}/raw/refs/heads/main/examples/${file.replace(
           / /g,
           "%20"
-        )})`
+        )}) |`
       );
-      readme.push(`</br>`);
     });
   }
 
