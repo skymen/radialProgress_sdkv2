@@ -184,7 +184,7 @@ export default async function generateDocumentation() {
       readme.push(
         `${
           anyHasImages ? `| ${imgString} ` : ""
-        }| ${fileName} | [<img src="https://placehold.co/150x30/4493f8/FFF?text=Download&font=montserrat" width="150"/>](${githubUrl}/raw/refs/heads/main/examples/${file.replace(
+        }| ${fileName} | [<img src="https://placehold.co/150x40/4493f8/FFF?text=Download&font=montserrat" width="150"/>](${githubUrl}/raw/refs/heads/main/examples/${file.replace(
           / /g,
           "%20"
         )}) |`
