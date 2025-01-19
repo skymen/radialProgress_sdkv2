@@ -39,8 +39,8 @@ npm run dev
 ## Examples Files
 | Description | Download |
 | --- | --- |
-| Full Control | [<img src="https://placehold.co/150x40/4493f8/FFF?text=Download&font=montserrat" width="150"/>](https://github.com/skymen/radialProgress_sdkv2/raw/refs/heads/main/examples/Full%20Control.c3p) |
-| Simple Progress Bar | [<img src="https://placehold.co/150x40/4493f8/FFF?text=Download&font=montserrat" width="150"/>](https://github.com/skymen/radialProgress_sdkv2/raw/refs/heads/main/examples/Simple%20Progress%20Bar.c3p) |
+| Full Control | [<img src="https://placehold.co/120x30/4493f8/FFF?text=Download&font=montserrat" width="120"/>](https://github.com/skymen/radialProgress_sdkv2/raw/refs/heads/main/examples/Full%20Control.c3p) |
+| Simple Progress Bar | [<img src="https://placehold.co/120x30/4493f8/FFF?text=Download&font=montserrat" width="120"/>](https://github.com/skymen/radialProgress_sdkv2/raw/refs/heads/main/examples/Simple%20Progress%20Bar.c3p) |
 
 ---
 ## Properties
