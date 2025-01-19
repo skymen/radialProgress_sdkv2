@@ -151,21 +151,40 @@ export default async function generateDocumentation() {
       "webp",
     ]);
 
-    readme.push(`| Images | Description | Download |`);
-    readme.push(`| --- | --- | --- |`);
+    // any example has Images
+    let anyHasImages = false;
+    exampleFiles.forEach((file) => {
+      const fileName = file.split(".")[0];
+      let imageArr = images.filter((image) =>
+        image.split(".")[0].includes(fileName)
+      );
+      if (imageArr.length > 0) {
+        anyHasImages = true;
+      }
+    });
+
+    if (anyHasImages) {
+      readme.push(`| Images | Description | Download |`);
+      readme.push(`| --- | --- | --- |`);
+    } else {
+      readme.push(`| Description | Download |`);
+      readme.push(`| --- | --- |`);
+    }
     exampleFiles.forEach((file) => {
       const fileName = file.split(".")[0];
 
       //add images
-      let images = images.filter((image) =>
+      let imageArr = images.filter((image) =>
         image.split(".")[0].includes(fileName)
       );
       let imgString = "";
-      images.forEach((image) => {
+      imageArr.forEach((image) => {
         imgString += `<img src="./examples/${image}" width="100" />`;
       });
       readme.push(
-        `| ${imgString} | ${fileName} | [<img src="https://placehold.co/100x25/4493f8/FFF?text=Download&font=montserrat" width="100"/>](${githubUrl}/raw/refs/heads/main/examples/${file.replace(
+        `${
+          anyHasImages ? `| ${imgString} ` : ""
+        }| ${fileName} | [<img src="https://placehold.co/100x25/4493f8/FFF?text=Download&font=montserrat" width="100"/>](${githubUrl}/raw/refs/heads/main/examples/${file.replace(
           / /g,
           "%20"
         )}) |`
@@ -251,7 +270,7 @@ export default async function generateDocumentation() {
   readme.push(``);
 
   fs.writeFileSync(path.join(__dirname, "README.md"), readme.join("\n"));
-
+  console.log(readme.join("\n"));
   chalkUtils.success("README.md generated successfully");
 
   return false;
