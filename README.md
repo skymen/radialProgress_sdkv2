@@ -1,4 +1,4 @@
-<img src="./examples/cover.png?rand=1671" width="150" /><br>
+<img src="./examples/cover.png" width="150" /><br>
 # Radial Progress
 <i>Makes a sprite or tiled background behave as a radial progress bar</i> <br>
 ### Version 2.0.0.0
@@ -37,11 +37,11 @@ npm run dev
 ```
 
 ## Examples Files
-- [Full Control](./examples/Full Control.c3p)
+</br>
+- [Full Control](https://github.com/skymen/radialProgress_sdkv2/raw/refs/heads/main/examples/Full%20Control.c3p)
 </br>
 </br>
-- [Simple Progress Bar](./examples/Simple Progress Bar.c3p)
-</br>
+- [Simple Progress Bar](https://github.com/skymen/radialProgress_sdkv2/raw/refs/heads/main/examples/Simple%20Progress%20Bar.c3p)
 </br>
 
 ---
